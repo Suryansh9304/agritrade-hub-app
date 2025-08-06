@@ -4,7 +4,8 @@ import "./Login.css";
 function Login() {
     return (
         <React.Fragment>
-            <div className="login-background">
+            <div className="login-background
+            ">
                 <div className="login-container">
                     <h2>AgriTrade Hub Login</h2>
                     <form>
