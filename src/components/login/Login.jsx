@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "../css/Farmer.css"
 
 function Login() {
     const navigate = useNavigate();
@@ -23,7 +24,8 @@ function Login() {
 
     return (
         <React.Fragment>
-            <div className="container py-5 d-flex justify-content-center align-items-center min-vh-100 bg-light">
+             <div className="farmer-page">
+            <div className="container py-5 d-flex justify-content-center align-items-center min-vh-100">
                 <div className="col-md-6 bg-white p-4 shadow rounded">
                     <h2 className="text-center text-success mb-4">AgriTrade Hub Login</h2>
                     <form onSubmit={handleSubmit}>
@@ -70,6 +72,7 @@ function Login() {
                         <button type="submit" className="btn btn-success w-100">Login</button>
                     </form>
                 </div>
+            </div>
             </div>
         </React.Fragment>
     );
