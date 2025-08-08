@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Form, Button, Card, Alert } from 'react-bootstrap';
+import "../css/Farmer.css";
 
 function ContactAdmin() {
   const [formData, setFormData] = useState({
@@ -33,12 +34,12 @@ function ContactAdmin() {
   };
 
   return (
-    <Card className="shadow-sm border-0 mt-3">
+    <Card className="shadow-sm border-0 mt-3 contact-admin-card">
       <Card.Header className="bg-success text-white">
         <h5 className="mb-0">Contact Admin</h5>
       </Card.Header>
 
-      <Card.Body>
+      <Card.Body >
         {submitted && (
           <Alert variant="success">
             Message sent successfully!
@@ -91,6 +92,7 @@ function ContactAdmin() {
         </Form>
       </Card.Body>
     </Card>
+    
   );
 }
 

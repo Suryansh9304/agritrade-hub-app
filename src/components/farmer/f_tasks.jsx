@@ -1,8 +1,7 @@
-// src/components/pages/farmmer/Tasks.jsx
 import React from "react";
+import "../css/Farmer.css"; // ensure this is imported
 
 function Tasks() {
-  // Example list of tasks
   const tasks = [
     { id: 1, title: "Deliver 10kg Wheat", status: "Pending", date: "2025-08-08" },
     { id: 2, title: "Collect Seeds from Admin", status: "Completed", date: "2025-08-06" },
@@ -10,10 +9,10 @@ function Tasks() {
   ];
 
   return (
-    <div>
+    <div className="tasks-page">
       <h2 className="mb-4">Assigned Tasks</h2>
-      <table className="table table-bordered table-striped">
-        <thead className="table-success">
+      <table className="table table-bordered table-striped tasks-table">
+        <thead>
           <tr>
             <th>#</th>
             <th>Task</th>
