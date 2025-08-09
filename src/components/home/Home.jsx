@@ -129,18 +129,18 @@ function Home() {
 
         <h4 className="mt-4 text-success" style={{fontSize:'34px'}}>Who We Help</h4>
         <ul style={{fontSize:'18px'}}>
-          <li>🌾 Farmers storing grains, pulses, and produce</li>
-          <li>🚚 Traders booking space in warehouses</li>
-          <li>🏭 Agri-based businesses needing cold or dry storage</li>
+          <li> Farmers storing grains, pulses, and produce</li>
+          <li> Traders booking space in warehouses</li>
+          <li> Agri-based businesses needing cold or dry storage</li>
         </ul>
 <br/>
 
         <h4 className="mt-4 text-success" style={{fontSize:'34px'}}>Why Choose AgriStore Hub?</h4>
         <ul style={{fontSize:'18px'}}>
-          <li>✅ 24/7 Support</li>
-          <li>✅ Government Compliant Storage Units</li>
-          <li>✅ Real-Time Alerts & Notifications</li>
-          <li>✅ Multilingual Interface for regional ease</li>
+          <li> 24/7 Support</li>
+          <li> Government Compliant Storage Units</li>
+          <li> Real-Time Alerts & Notifications</li>
+          <li> Multilingual Interface for regional ease</li>
         </ul>
 
 <br/>
@@ -296,7 +296,8 @@ function Home() {
        </div>
        <div className="col-sm-6 px-5">
             <h2>Get the App</h2>
-            <p>© Copyright {new Date().getFullYear()} Designed & Developed By | Softpro India Computer Technologies (P) Ltd.<br /></p>
+            <p>© Copyright {new Date().getFullYear()} Designed & Developed By |
+ Softpro India Computer Technologies (P) Ltd.<br /></p>
             <p>Download the AgriTrade Hub app for Android and iOS.</p>
             <div className="d-flex justify-content-center gap-3">
                 <button className="btn btn-light" style={{marginLeft:"-330px"}}>Google Play</button>
