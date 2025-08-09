@@ -99,6 +99,8 @@ function Home() {
 
 {/* about us starts */}
  <div className="about-us py-5 px-4" id="about_us" style={{ backgroundColor: "#f9f9f9" }}>
+      <br/>
+      <br/>
       <div className="container">
         <div className="row">
             <div className="col-sm-8">
@@ -170,6 +172,8 @@ function Home() {
 
 {/* services start */}
 <div id="services" className="container py-5 ps-5">
+<br/>
+      <br/>
   <h2 className="custom-green-text">Our Services</h2>
   <ul style={{fontSize:'18px'}}>
     <li><strong>Digital Inventory Management:</strong> Track crops with quantity, quality, and location details.</li>
@@ -243,7 +247,9 @@ function Home() {
 
 {/* storage start */}
 <div id="storage" className="container py-5 ps-5">
-    <h2 className="custom-green-text">Available Storage Types</h2>
+    <br/>
+      <br/>
+      <h2 className="custom-green-text">Available Storage Types</h2>
     <ul style={{fontSize:'18px'}}>
         <li>Cold Storage</li>
         <li>Dry Warehouses</li>
